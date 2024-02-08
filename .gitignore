@@ -1,0 +1,6 @@
+.vs/
+bin/
+obj/
+packages/
+ProjektWektor3D.sln.DotSettings.user
+*.png

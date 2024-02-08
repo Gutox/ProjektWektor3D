@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProjektWektor3D.Forms.Form1">
+    <Position X="1.75" Y="1.75" Width="4.5" />
+    <Members>
+      <Field Name="Commands_textBox" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="exportToolStripMenuItem" Hidden="true" />
+      <Field Name="fromFileToolStripMenuItem" Hidden="true" />
+      <Field Name="fromSQLToolStripMenuItem" Hidden="true" />
+      <Field Name="History_listBox" Hidden="true" />
+      <Field Name="importToolStripMenuItem" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="Name1" Hidden="true" />
+      <Field Name="settingsToolStripMenuItem" Hidden="true" />
+      <Field Name="sQLSettingsToolStripMenuItem" Hidden="true" />
+      <Field Name="toFileToolStripMenuItem" Hidden="true" />
+      <Field Name="toSQLToolStripMenuItem" Hidden="true" />
+      <Field Name="X" Hidden="true" />
+      <Field Name="Y" Hidden="true" />
+      <Field Name="Z" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAIAhAgADAEQZAhiACAgYACAAhCACCAAIwACAAAZAE=</HashCode>
+      <FileName>Forms\Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Commands" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Vectors" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ProjektWektor3D.Program">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektWektor3D.Commands">
+    <Position X="7.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAIAAgAAAAAAAABAAIA=</HashCode>
+      <FileName>Commands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektWektor3D.Vector3D">
+    <Position X="9.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAE+AUAAABAAAAAAIBAAEAAAEEAYiE=</HashCode>
+      <FileName>Vector3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektWektor3D.FileHelpers.CSVHelper">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>FileHelpers\CSVHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.269" />
+  </Class>
+  <Class Name="ProjektWektor3D.FileHelpers.JSONHelper">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>FileHelpers\JSONHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektWektor3D.FileHelpers.XLSXHelper">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>FileHelpers\XLSXHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektWektor3D.SQL.VectorsFromSQLHelper">
+    <Position X="15" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQACAAAAAAAAAAAAAAAAAAEAAACAAAAAAA=</HashCode>
+      <FileName>SQL\VectorsFromSQLHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektWektor3D.SQL.MSSQLHelper">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAgFAAABAAMAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SQL\MSSQLHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektWektor3D.Forms.SqlSettings">
+    <Position X="1.75" Y="5.75" Width="3" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="Database_label" Hidden="true" />
+      <Field Name="Database_textBox" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="Host_label" Hidden="true" />
+      <Field Name="Host_textBox" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="Password_label" Hidden="true" />
+      <Field Name="Password_textBox" Hidden="true" />
+      <Field Name="Save_button" Hidden="true" />
+      <Field Name="Username_label" Hidden="true" />
+      <Field Name="Username_textBox" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQABCGAQAAAAgSAAAACAACEEAAAgQAAABIAAAA=</HashCode>
+      <FileName>Forms\SqlSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ProjektWektor3D.FileHelpers.IFileHelper">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>FileHelpers\IFileHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI Variable Text" Size="9" />
+</ClassDiagram>
